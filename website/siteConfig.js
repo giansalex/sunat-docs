@@ -8,19 +8,19 @@
 /* List of projects/orgs using your project for the users page */
 const users = [
   {
-    caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
+    caption: 'Greenter',
+    image: 'https://github.com/giansalex/greenter/raw/master/docs/img/logo.png',
+    infoLink: 'https://giansalex.github.io/greenter/',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
-  url: 'https://facebook.github.io' /* your website url */,
-  baseUrl: '/test-site/' /* base url for your project */,
-  projectName: 'test-site',
+  title: 'Sunat Docs ' /* title for your website */,
+  tagline: 'Documentación de Facturación Electrónica',
+  url: 'https://giansalex.github.io/sunat-docs' /* your website url */,
+  baseUrl: '/sunat-docs/' /* base url for your project */,
+  projectName: 'sunat-docs',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
@@ -34,8 +34,8 @@ const siteConfig = {
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#5d3e63',
+    secondaryColor: '#735d77',
   },
   /* custom fonts for website */
   /*fonts: {
@@ -52,7 +52,7 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+    ' SUNAT',
   // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
   // projectName: 'test-site', // or set an env variable PROJECT_NAME
   highlight: {
@@ -61,7 +61,7 @@ const siteConfig = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/giansalex/sunat-docs',
 };
 
 module.exports = siteConfig;

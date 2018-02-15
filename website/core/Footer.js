@@ -51,7 +51,7 @@ class Footer extends React.Component {
               User Showcase
             </a>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="http://stackoverflow.com/questions/sunat/"
               target="_blank">
               Stack Overflow
             </a>
@@ -89,7 +89,7 @@ class Footer extends React.Component {
           />
         </a>
         <section className="copyright">
-          Copyright &copy; {currentYear} Facebook Inc.
+          Copyright &copy; {currentYear} IMM Corp.
         </section>
       </footer>
     );
