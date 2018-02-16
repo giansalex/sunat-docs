@@ -25,7 +25,7 @@ const siteConfig = {
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {blog: true, label: 'Blog'}
   ],
   users,
   /* path to images for header/footer */
@@ -55,6 +55,7 @@ const siteConfig = {
     ' SUNAT',
   organizationName: 'giansalex', // or set an env variable ORGANIZATION_NAME
   projectName: 'sunat-docs', // or set an env variable PROJECT_NAME
+  editUrl: "https://github.com/giansalex/sunat-docs/edit/master/docs/",
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
