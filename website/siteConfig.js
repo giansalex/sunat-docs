@@ -53,7 +53,7 @@ const siteConfig = {
     'Copyright © ' +
     new Date().getFullYear() +
     ' SUNAT',
-  organizationName: 'IMM Corp', // or set an env variable ORGANIZATION_NAME
+  organizationName: 'giansalex', // or set an env variable ORGANIZATION_NAME
   projectName: 'sunat-docs', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
