@@ -20,7 +20,6 @@ const siteConfig = {
   tagline: 'Documentación de Facturación Electrónica',
   url: 'https://giansalex.github.io/sunat-docs' /* your website url */,
   baseUrl: '/sunat-docs/' /* base url for your project */,
-  projectName: 'sunat-docs',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
@@ -56,10 +55,12 @@ const siteConfig = {
   organizationName: 'giansalex', // or set an env variable ORGANIZATION_NAME
   projectName: 'sunat-docs', // or set an env variable PROJECT_NAME
   editUrl: "https://github.com/giansalex/sunat-docs/edit/master/docs/",
+  useEnglishUrl: false,
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
+  twitter: true,
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
   repoUrl: 'https://github.com/giansalex/sunat-docs',
