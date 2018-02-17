@@ -23,7 +23,6 @@ const siteConfig = {
   noIndex: false,
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
     {
@@ -31,6 +30,7 @@ const siteConfig = {
       label: 'GitHub',
     }
   ],
+  useEnglishUrl: false,
   users,
   /* path to images for header/footer */
   headerIcon: 'img/sunat.svg',
@@ -53,10 +53,7 @@ const siteConfig = {
     ]
   },*/
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' SUNAT',
+  copyright: 'Copyright © ' + new Date().getFullYear() + ' IMM Corp',
   organizationName: 'giansalex', // or set an env variable ORGANIZATION_NAME
   projectName: 'sunat-docs', // or set an env variable PROJECT_NAME
   editUrl: "https://github.com/giansalex/sunat-docs/edit/master/docs/",
