@@ -102,16 +102,16 @@ const Features = props => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
-        image: imgUrl('sunat.svg'),
+        content: 'Información actualizada de las guías de elaboración de comprobantes electrónicos, descripción de codigos de error y resolución de problemas.',
+        image: imgUrl('invoice.png'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Comprobantes Electrónicos',
       },
       {
-        content: 'The content of my second feature',
-        image: imgUrl('sunat.svg'),
+        content: 'Guía para empezar con la facturación electrónica, requerimientos, beneficios y diferentes opciones para convertirse en emisor electrónico.',
+        image: imgUrl('company.png'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Contribuyentes',
       },
     ]}
   </Block>
@@ -121,19 +121,19 @@ const FeatureCallout = props => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <h2>Soluciones Tecnológicas para Factura Electrónica</h2>
+    <MarkdownBlock>Lista de diferentes soluciones digitales llevar a cabo la **facturación electrónica**, incluyendo proveedores de servicios, proyectos `OpenSource` o de terceros, asi como otras formas de negocio que surgen a partir de este proceso.</MarkdownBlock>
   </div>
 );
 
 const LearnHow = props => (
-  <Block background="light">
+  <Block background="dark">
     {[
       {
-        content: 'Talk about learning how to use this',
-        image: imgUrl('sunat.svg'),
+        content: 'Aprenda mas sobre los comprobantes electrónicos, diferencia de los comprobantes físicos, además descubra los beneficios que puede obtener si accede a este normativa.',
+        image: imgUrl('cpe_sunat.png'),
         imageAlign: 'right',
-        title: 'Learn How',
+        title: 'Cpe',
       },
     ]}
   </Block>
@@ -143,10 +143,11 @@ const TryOut = props => (
   <Block id="try">
     {[
       {
-        content: 'Talk about trying this out',
-        image: imgUrl('sunat.svg'),
+        content: 'Darse de alta como emisor electrónico, verificar que necesita para empezar a emitir `comprobantes electrónicos`, conocer las diferentes soluciones y seleccionar la que se adapte a sus necesidades',
+        image: imgUrl('invoice_online.jpg'),
+        imageHeight: '100px',
         imageAlign: 'left',
-        title: 'Try it Out',
+        title: 'Emisor Electrónico',
       },
     ]}
   </Block>
@@ -156,10 +157,10 @@ const Description = props => (
   <Block background="dark">
     {[
       {
-        content: 'This is another description of how this project is useful',
-        image: imgUrl('sunat.svg'),
+        content: 'Adapte su software a los nuevos requerimientos para adaptarse la facturación electrónica, conozca el ciclo de la emisión de un `cpe` y toda el proceso que debe soportar su sistema para cumplir con las normativas de **SUNAT**.',
+        image: imgUrl('einvoice.jpg'),
         imageAlign: 'right',
-        title: 'Description',
+        title: 'Desarrolladores',
       },
     ]}
   </Block>
@@ -183,8 +184,8 @@ const Showcase = props => {
 
   return (
     <div className="productShowcaseSection paddingBottom">
-      <h2>{"Who's Using This?"}</h2>
-      <p>This project is used by all these people</p>
+      <h2>{"¿Quienes estan usando esto?"}</h2>
+      <p>Este proyecto es usado por todas esta gente.</p>
       <div className="logos">{showcase}</div>
       <div className="more-users">
         <a className="button" href={pageUrl('users.html', props.language)}>
