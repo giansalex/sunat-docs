@@ -33,8 +33,8 @@ const siteConfig = {
   ],
   users,
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/sunat.svg',
+  footerIcon: 'img/sunat.svg',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
