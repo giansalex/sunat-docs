@@ -18,7 +18,7 @@ const users = [
 const siteConfig = {
   title: 'Sunat Docs ' /* title for your website */,
   tagline: 'Documentación de Facturación Electrónica',
-  url: 'https://giansalex.github.io/sunat-docs' /* your website url */,
+  url: 'https://giansalex.github.io' /* your website url */,
   baseUrl: '/sunat-docs/' /* base url for your project */,
   noIndex: false,
   headerLinks: [
