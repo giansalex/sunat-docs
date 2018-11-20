@@ -4,19 +4,35 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "Documentación de Facturación Electrónica",
-    "doc1": "Latin-ish",
-    "Example Page": "Example Page",
-    "doc2": "document number 2",
-    "doc3": "This is document number 3",
-    "doc4": "Other Document",
-    "doc5": "Fifth Document",
-    "Docs": "Docs",
-    "Help": "Help",
-    "Blog": "Blog",
-    "GitHub": "GitHub",
-    "Docusaurus": "Docusaurus",
-    "First Category": "First Category",
-    "Second Category": "Second Category"
+    "docs": {
+      "doc1": {
+        "title": "Latin-ish",
+        "sidebar_label": "Example Page"
+      },
+      "doc2": {
+        "title": "document number 2"
+      },
+      "doc3": {
+        "title": "This is document number 3"
+      },
+      "doc4": {
+        "title": "Other Document"
+      },
+      "doc5": {
+        "title": "Fifth Document"
+      }
+    },
+    "links": {
+      "Docs": "Docs",
+      "Help": "Help",
+      "Blog": "Blog",
+      "GitHub": "GitHub"
+    },
+    "categories": {
+      "Docusaurus": "Docusaurus",
+      "First Category": "First Category",
+      "Second Category": "Second Category"
+    }
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
