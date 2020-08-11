@@ -2,4 +2,4 @@
 Documentación acerca de Facturación Electrónica - SUNAT - Perú
 
 
-## :warning: Visite [Greenter](https://greenter.dev) :warning:
+## :warning: Se movio a este [repositorio](https://github.com/thegreenter/F001-1/).
